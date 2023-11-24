@@ -1,0 +1,82 @@
+
+body{
+    background-color: rgb(34, 34, 44);
+    color: white;
+    font-family: "Borel", cursive;
+}
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(155, 155, 194);
+    font-size: 1.04rem;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+
+.container {
+    width: 360px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+footer 
+{
+    background-color: #0e0e1a;
+}
+.footer 
+{
+    display: flex;
+    margin-top: 290px;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+footer .footer-rights 
+{
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
